@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yml_catalog date="2025-01-15T12:00:00+03:00">
+  <shop>
+    <name>АТ Диагностика</name>
+    <company>АТ Диагностика — диагностика автоэлектрики, Самара</company>
+    <url>https://atdiagnostika.ru</url>
+    <email>cosmi2019@yandex.ru</email>
+
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">Автоуслуги</category>
+      <category id="2" parentId="1">Диагностика автоэлектрики</category>
+      <category id="3" parentId="1">Консультации по автоэлектрике</category>
+      <category id="4" parentId="1">Ремонт автоэлектрики</category>
+    </categories>
+
+    <offers>
+      <!-- Услуга 1: Диагностика сложных неисправностей автоэлектрики -->
+      <offer id="1" type="service" available="true">
+        <name>Диагностика сложных неисправностей автоэлектрики — от 6 500 руб.</name>
+        <url>https://atdiagnostika.ru/price_expert</url>
+        <price from="true">6500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <description>Глубокая диагностика сложных неисправностей автоэлектрики, когда стандартная диагностика не помогла. Работаю с плавающими ошибками, нестабильной работой систем, проблемами CAN-шины и цепей питания. Анализ симптомов, условий появления ошибки, проверка под нагрузкой. Результат: точная причина неисправности и рекомендации без навязывания лишних работ.</description>
+        <set-ids>s1</set-ids>
+      </offer>
+
+      <!-- Услуга 2: Устранение неисправностей после диагностики -->
+      <offer id="2" type="service" available="true">
+        <name>Устранение неисправностей после диагностики — от 2 000 руб.</name>
+        <url>https://atdiagnostika.ru/price_expert</url>
+        <price from="true">2000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>4</categoryId>
+        <description>Точечный ремонт автоэлектрики после точной диагностики. Восстанавливаю проводку, устраняю проблемы с контактами, цепями питания и CAN-шиной. Работы только по выявленному дефекту — без догадок и лишних вмешательств. Решение принимается после диагностики. Результат: полное устранение проблемы без повторных визитов.</description>
+        <set-ids>s1</set-ids>
+      </offer>
+
+      <!-- Услуга 3: Консультация по сложным неисправностям (легковые) -->
+      <offer id="3" type="service" available="true">
+        <name>Консультация по сложным неисправностям автоэлектрики (легковые) — от 5 000 руб.</name>
+        <url>https://atdiagnostika.ru/consultation</url>
+        <price from="true">5000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <description>Профессиональный анализ сложных неисправностей автоэлектрики легковых авто. Разберу симптомы, историю проблемы, логику работы систем. Помогу понять причину, исключу ошибочные действия, дам алгоритм дальнейших проверок. Избегаем ненужных затрат и принимаем обоснованное решение о ремонте или диагностике.</description>
+        <set-ids>s2</set-ids>
+      </offer>
+      <!-- Услуга 4: Консультация по сложной автоэлектрике грузового транспорта -->
+      <offer id="4" type="service" available="true">
+        <name>Консультация по сложной автоэлектрике грузового транспорта — от 5 000 руб.</name>
+        <url>https://atdiagnostika.ru/consultation</url>
+        <price from="true">5000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <description>Консультация для владельцев грузового транспорта с проблемами автоэлектрики. Разбираю симптомы, анализирую ошибки, определяю реальную причину неисправности. Помогаю избежать ненужных проверок и хаотичных ремонтов. По записи. Результат: чёткое понимание проблемы и план действий.</description>
+        <set-ids>s2</set-ids>
+      </offer>
+      <!-- Услуга 5: Выездная диагностика грузового автомобиля -->
+      <offer id="5" type="service" available="true">
+        <name>Выездная диагностика грузового автомобиля — от 8 000 руб.</name>
+        <url>https://atdiagnostika.ru/gruzovoytransport</url>
+        <price from="true">8000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <description>Глубокая диагностика на месте для грузового транспорта. Анализ электронных систем, проверка питания, масс и сигналов, работа с плавающими ошибками и CAN-шиной. Цель: найти причину, а не просто считать ошибки. По результатам: объяснение проблемы и варианты решения. Возможна дальнейшая работа по устранению. По предварительной записи.</description>
+        <set-ids>s3</set-ids>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
