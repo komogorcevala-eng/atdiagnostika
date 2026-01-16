@@ -2,7 +2,7 @@
 <yml_catalog date="2025-01-15T12:00:00+03:00">
   <shop>
     <name>АТ Диагностика</name>
-    <company>ООО "АТ Диагностика"</company>
+    <company>ООО"АТ Диагностика"</company>
     <url>https://atdiagnostika.ru</url>
     <email>cosmi2019@yandex.ru</email>
 
@@ -73,6 +73,7 @@
     </offers>
   </shop>
 </yml_catalog>
+
 
 
 
